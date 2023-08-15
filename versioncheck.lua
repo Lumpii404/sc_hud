@@ -1,4 +1,3 @@
-
 local githubRepoURL = "https://raw.githubusercontent.com/ScubeScripts/sc_hud/master/version"
 
 function CheckVersion()
@@ -13,10 +12,10 @@ function CheckVersion()
             if remoteVersion ~= latestVersion then
                 print("^3Your script is outdated. Please update to the latest version. https://github.com/ScubeScripts/sc_hud")
             else
-                print("Your script is up to date.")
+                print("^2Your script is up to date.")
             end
         else
-            print("Error retrieving version data.")
+            print("^8Error retrieving version data.")
         end
     end)
 end
