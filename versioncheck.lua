@@ -7,11 +7,11 @@ function CheckVersion()
             local remoteVersion = string.gsub(resultData, "\n", "")
             local latestVersion = GetResourceMetadata(GetCurrentResourceName(), 'version', 0)
 
-            print("Local Version: " .. latestVersion)
-            print("Latest Version: " .. remoteVersion)
+            print("^2Local Version: " .. latestVersion)
+            print("^3Latest Version: " .. remoteVersion)
 
             if remoteVersion ~= latestVersion then
-                print("Your script is outdated. Please update to the latest version. https://github.com/ScubeScripts/sc_hud")
+                print("^3Your script is outdated. Please update to the latest version. https://github.com/ScubeScripts/sc_hud")
             else
                 print("Your script is up to date.")
             end
