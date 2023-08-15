@@ -10,7 +10,7 @@ $(()=>{
             $("#armourBar").css({"width": Math.round(e.armour) + "%"});
             $('#playerId').text(e.playerId);
             $('#playerId').text(e.playerId);
-            $('.fa-id-card').css({"color": "#3498db"});
+            $('.fa-id-card').css({"color": "#3498db","text-shadow": "0 0 10px rgba(52, 152, 219, 0.8), 0 0 20px rgba(52, 152, 219, 0.6), 0 0 30px rgba(52, 152, 219, 0.4), 0 0 40px rgba(52, 152, 219, 0.2)"})
         }
 
 
