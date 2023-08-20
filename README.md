@@ -4,7 +4,7 @@
 
 - Stamina was added
 - Neon Effect added
-- Latest version of [Font-Awsome](https://fontawesome.com/v6/search?o=r&m=free)
+- Latest version of [Font-Awesome](https://fontawesome.com/v6/search?o=r&m=free)
 
 This is the new version of sc_hud. V1.0.2
 
