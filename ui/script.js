@@ -27,13 +27,13 @@ $(()=>{
 
         if (Math.round(e.armour) >= 26) {
             $("#armourBar").css({"background-color": "rgb(55, 107, 211)","box-shadow": "0 0 10px rgba(55, 107, 211, 0.8), 0 0 20px rgba(55, 107, 211, 0.6), 0 0 30px rgba(55, 107, 211, 0.4), 0 0 40px rgba(55, 107, 211, 0.2)"})
-            $(".fa-shield").css({"color": "rgb(55, 107, 211)"})
+            $(".fa-shield-halved").css({"color": "rgb(55, 107, 211)"})
             $("#armour").show(300)
             $("#iconarmour").show(300)                 
         } else if (Math.round(e.armour) >= 25) {
             $("#armourBar").css({"background-color": "red"})
-            $(".fa-shield").css({"color": "red"})
-            $('.fa-shield').fadeOut(100).fadeIn(100)             
+            $(".fa-shield-halved").css({"color": "red"})
+            $('.fa-shield-halved').fadeOut(100).fadeIn(100)             
         } else if (Math.round(e.armour) <= 0) {
             $("#armour").hide(300)
             $("#iconarmour").hide(300)      
