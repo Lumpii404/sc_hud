@@ -3,6 +3,7 @@ CreateThread(function()
         local msec = 1000;
         local ped = PlayerPedId()
 
+        local stamina = GetPlayerSprintStaminaRemaining(PlayerId())
 
         TriggerEvent('esx_status:getStatus', 'hunger', function(status) 
             hunger = status.val / 10000 
@@ -17,6 +18,7 @@ CreateThread(function()
             armour = GetPedArmour(ped);
             hunger = hunger;
             thirst = thirst;
+            stamina = stamina;
             playerId = GetPlayerServerId(PlayerId());
         })
 
