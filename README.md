@@ -19,6 +19,8 @@ This is the new version of sc_hud. V1.0.2
 
 > [ESX-Framework](https://github.com/esx-framework/esx-legacy)
 
+> [Remove HP/ARMOUR Minimap + Remove Red Reticle](https://forum.cfx.re/t/release-gfx-remove-hp-armour-minimap-remove-red-reticle/894812)
+
 ## Installation
 Clone or download this repository
 
