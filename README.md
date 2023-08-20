@@ -8,7 +8,7 @@
 This is the new version of sc_hud. V1.0.2
 
 ### Without bulletproof vest and stamina:
-![](https://media.discordapp.net/attachments/1100114436250947607/1141115076070346873/Screenshot_2023-08-15_214105.png)
+![](https://cdn.discordapp.com/attachments/1100114436250947607/1142855138248237198/Screenshot_2023-08-20_181807.png)
 
 ### With bulletproof vest and stamina:
 ![](https://cdn.discordapp.com/attachments/1100114436250947607/1142853141319135344/Screenshot_2023-08-20_180831.png)
