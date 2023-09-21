@@ -7,9 +7,9 @@ function CheckVersion()
             local latestVersion = GetResourceMetadata(GetCurrentResourceName(), 'version', 0)
 
             if remoteVersion ~= latestVersion then
-                print("^7[^1INFO^7] ^3sc_hud is outdated. Please update to the latest version. https://github.com/ScubeScripts/sc_hud")
+                print("^7[^1INFO^7] ^3sc_hud is outdated. Please update to the latest version. ^7(^2".. remoteVersion .."^7)^3 https://github.com/ScubeScripts/sc_hud")
             else
-                print("^7[^2INFO^7] ^7sc_hud is up to date! ^7(^21.0.3^7)")
+                print("^7[^2INFO^7] ^7sc_hud is up to date! ^7(^2".. latestVersion .."^7)")
             end
         else
             print("^8Error retrieving version data.")
