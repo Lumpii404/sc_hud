@@ -1,6 +1,7 @@
 $(()=>{
     window.addEventListener("message", (event)=>{
         let e = event.data
+        // console.log("Air:", e.air);
 
 
         if (e.action === "UpdateHud") {
@@ -14,6 +15,7 @@ $(()=>{
             $('#playerId').text(e.playerId);
             $('.fa-id-card').css({"color": "#3498db","text-shadow": "0 0 10px rgba(52, 152, 219, 0.8), 0 0 20px rgba(52, 152, 219, 0.6), 0 0 30px rgba(52, 152, 219, 0.4), 0 0 40px rgba(52, 152, 219, 0.2)"})
         }
+
 
         if (Math.round(e.health) >= 26) {
             $("#healthBar").css({"background-color": "rgb(231, 76, 60)","box-shadow": "0 0 10px rgba(231, 76, 60, 0.8), 0 0 20px rgba(231, 76, 60, 0.6), 0 0 30px rgba(231, 76, 60, 0.4), 0 0 40px rgba(231, 76, 60, 0.2)"})              

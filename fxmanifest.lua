@@ -11,8 +11,7 @@ client_scripts {
 }
 
 server_scripts {
-    'server.lua',
-    'versioncheck.lua'
+    'server.lua'
 }
 
 ui_page ("ui/ui.html")
