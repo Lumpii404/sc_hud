@@ -7,11 +7,11 @@ version "2.0.1"
 description "A simple and clean hud"
 
 client_scripts {
-    "client.lua"
+    "main/client.lua"
 }
 
 server_scripts {
-    'server.lua'
+    'main/server.lua'
 }
 
 ui_page ("ui/ui.html")
