@@ -3,7 +3,7 @@ game 'gta5'
 
 name "sc_hud"
 author "Scube Scripts"
-version "2.0.2"
+version "2.0.1"
 description "A simple and clean hud"
 
 client_scripts {
@@ -11,7 +11,8 @@ client_scripts {
 }
 
 server_scripts {
-    'main/server.lua'
+    'main/server.lua',
+    "main/function.lua"
 }
 
 ui_page ("ui/ui.html")
