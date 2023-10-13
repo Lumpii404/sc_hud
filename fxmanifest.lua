@@ -3,7 +3,7 @@ game 'gta5'
 
 name "sc_hud"
 author "Scube Scripts"
-version "1.1.4"
+version "2.0.1"
 description "A simple and clean hud"
 
 client_scripts {
