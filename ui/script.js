@@ -1,7 +1,7 @@
 $(()=>{
     window.addEventListener("message", (event)=>{
         let e = event.data
-        // console.log("Air:", e.air);
+        // console.log("Stamina:", e.stamina);
 
 
         if (e.action === "UpdateHud") {
@@ -9,7 +9,6 @@ $(()=>{
             $("#hungerBar").css({"width": Math.round(e.hunger) + "%"});
             $("#thirstBar").css({"width": Math.round(e.thirst) + "%"});
             $("#staminaBar").css({"width": 100 - Math.round(e.stamina) + "%"});
-            $("#airBar").css({"width": 10 * Math.round(e.air) + "%"});
             $("#armourBar").css({"width": Math.round(e.armour) + "%"});
             $('#playerId').text(e.playerId);
             $('#playerId').text(e.playerId);
@@ -48,16 +47,6 @@ $(()=>{
         } else if (Math.round(e.stamina) <= 5) {
             $("#stamina").hide(300)
             $("#iconstamina").hide(300) 
-        }
-
-        if (Math.round(e.air) >= 9 ) {
-            $("#air").hide(300)
-            $("#iconair").hide(300)                           
-        } else if (Math.round(e.air) <= 9) {
-            $("#airBar").css({"background-color": "rgb(51, 153, 255)","box-shadow": "0 0 10px rgba(51, 153, 255, 0.8), 0 0 20px rgba(51, 153, 255, 0.6), 0 0 30px rgba(51, 153, 255, 0.4), 0 0 40px rgba(51, 153, 255, 0.2)"})
-            $(".fa-wind").css({"color": "rgb(51, 153, 255)"})
-            $("#air").show(300)
-            $("#iconair").show(300) 
         }
 
         if (Math.round(e.hunger) >= 26) {

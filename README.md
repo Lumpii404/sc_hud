@@ -1,4 +1,4 @@
-# sc_hud V2.0.2
+# sc_hud V2.0.1
 
 ## What's new?
 
