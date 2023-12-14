@@ -1,3 +1,5 @@
+![](https://github.com/ScubeScripts/sc_hud/assets/104854776/99d7c372-7f13-495c-a7a6-f5555ea9b0b3)
+
 ## What's new?
 
 - new updater
@@ -10,7 +12,7 @@
 
 ## Preview
 
-![Screenshot 2023-09-22 174511](https://github.com/ScubeScripts/sc_hud/assets/104854776/02fc7dc1-4a20-4e96-ae9a-3ecb98c03ed1)
+![](https://github.com/ScubeScripts/sc_hud/assets/104854776/8f542056-1356-463c-8aa6-c880f1a64adf)
 
 ## Requirements
 
