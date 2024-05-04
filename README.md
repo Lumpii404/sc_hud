@@ -2,7 +2,7 @@
 
 ## What's new?
 
-- [Remove HP/ARMOUR Minimap + Remove Red Reticle] no longer needs to be downloaded separately, is now part of the script.
+- [Remove HP/ARMOUR Minimap + Remove Red Reticle](https://forum.cfx.re/t/release-gfx-remove-hp-armour-minimap-remove-red-reticle/894812) no longer needs to be downloaded separately, is now part of the script.
 
 ## What's coming soon?
 
