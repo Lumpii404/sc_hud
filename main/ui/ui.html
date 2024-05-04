@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>ScubeScripts HUD</title>
+</head>
+<body>
+    <div class="container">
+        <div class="statushud" align="center">
+            <i class="fa fa-heart-pulse"></i>
+            <div class="progressBar">
+                <div class="progress" id="healthBar"></div>
+            </div>
+        </div>
+        <div class="statushud" align="center">
+            <i class="fa-solid fa-vest" id="iconarmour"></i>
+            <div class="progressBar" id="armour">
+                <div class="progress" id="armourBar"></div>
+            </div>
+        </div>
+        <div class="statushud" align="center">
+            <i class="fa-solid fa-cookie-bite"></i>
+            <div class="progressBar">
+                <div class="progress" id="hungerBar"></div>
+            </div>
+        </div>
+        <div class="statushud" align="center">
+            <i class="fa-solid fa-glass-water"></i>
+            <div class="progressBar">
+                <div class="progress" id="thirstBar"></div>
+            </div>
+        </div>
+        <div class="statushud" align="center">
+            <i class="fa-solid fa-person-running" id="iconstamina"></i>
+            <div class="progressBar" id="stamina">
+                <div class="progress" id="staminaBar"></div>
+            </div>
+        </div>
+        <div class="statushud" align="center">
+            <i class="fa-solid fa-lungs" id="iconair"></i>
+            <div class="progressBar" id="air">
+                <div class="progress" id="airBar"></div>
+            </div>
+        </div>
+        <div class="statushud" align="center">
+            <i class="fa-solid fa-fingerprint">
+                <span class="playerId" id="playerId"></span>
+            </i>
+        </div>
+    </div>
+</body>
+</html>

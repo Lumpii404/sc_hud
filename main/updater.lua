@@ -1,5 +1,6 @@
 local curVersion = GetResourceMetadata(GetCurrentResourceName(), "version")
 local resourceName = "sc_hud"
+
 CreateThread(function()
     if GetCurrentResourceName() ~= "sc_hud" then
         resourceName = "sc_hud (" .. GetCurrentResourceName() .. ")"

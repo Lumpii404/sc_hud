@@ -3,7 +3,7 @@ game 'gta5'
 
 name "sc_hud"
 author "Scube Scripts"
-version "3.0.2"
+version "3.0.4"
 description "A simple and clean hud"
 
 client_scripts {
@@ -15,6 +15,9 @@ server_scripts {
     "main/updater.lua"
 }
 
-ui_page ("ui/ui.html")
+ui_page ("main/ui/ui.html")
 
-files {"**/**/**/**/**/**/*.*"}
+files {
+    "**/**/**/**/**/**/*.*",
+    'stream/**'
+}
