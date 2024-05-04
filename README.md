@@ -2,8 +2,7 @@
 
 ## What's new?
 
-- new updater
-- everything a little more sorted
+- [Remove HP/ARMOUR Minimap + Remove Red Reticle] no longer needs to be downloaded separately, is now part of the script.
 
 ## What's coming soon?
 
@@ -17,8 +16,6 @@
 ## Requirements
 
 > [ESX-Legacy](https://github.com/esx-framework/esx-legacy) V1.10.x and newer
-
-> [Remove HP/ARMOUR Minimap + Remove Red Reticle](https://forum.cfx.re/t/release-gfx-remove-hp-armour-minimap-remove-red-reticle/894812)
 
 ## Installation
 Clone or download this repository
