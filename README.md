@@ -1,4 +1,5 @@
-![](https://github.com/ScubeScripts/sc_hud/assets/104854776/99d7c372-7f13-495c-a7a6-f5555ea9b0b3)
+
+![](https://github.com/user-attachments/assets/b96f1a73-dc4d-4573-bac2-7f6f544efa00)
 
 ## What's new?
 
@@ -11,7 +12,7 @@
 
 ## Preview
 
-![](https://github.com/ScubeScripts/sc_hud/assets/104854776/8f542056-1356-463c-8aa6-c880f1a64adf)
+![](https://github.com/user-attachments/assets/b80882ad-433b-46dd-900b-ea5f0e385794)
 
 ## Requirements
 
