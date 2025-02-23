@@ -1,4 +1,5 @@
-
+> [!CAUTION]
+> This is an old version which is not up to date, please look here: [ScubeScripts](https://github.com/orgs/ScubeScripts/repositories)
 ![](https://github.com/user-attachments/assets/b96f1a73-dc4d-4573-bac2-7f6f544efa00)
 
 ## What's new?
